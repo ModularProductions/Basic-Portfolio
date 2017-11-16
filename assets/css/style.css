@@ -54,6 +54,11 @@ nav {
     border: 2px solid #ddd;    
 }
 
+#fullbar img {
+    float: left;
+    margin-right: 20px;
+}
+
 #sidebar {
     width: 270px;
     text-align: center;
@@ -61,11 +66,6 @@ nav {
     padding: 20px;
     float: right;
     border: 2px solid #ddd;    
-}
-
-#fullbar img {
-    float: left;
-    margin-right: 20px;
 }
 
 footer {
@@ -91,6 +91,10 @@ a {
 
 a:hover {
     color: #4aaaa5;
+}
+
+#portfolio ul {
+    margin-left: 30px
 }
 
 li {
@@ -122,6 +126,15 @@ h2 {
     color: #4aaaa5;
     font-size: x-large;
     margin-bottom: 20px;    
+}
+
+#portfolio {
+    float: none;
+    margin: 0 auto;
+}
+
+#portfolio img {
+    margin: 0;
 }
 
 #portfolio p {
@@ -157,4 +170,3 @@ input[type=submit] {
     height: 40px;
     font-size: medium;
 }
-
