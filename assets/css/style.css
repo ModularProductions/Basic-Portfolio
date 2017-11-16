@@ -3,7 +3,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100%; /* sticky */
     margin: 0;
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ body {
     line-height: 150%;
 }
 
-#wrap {
+#wrap { /* sticky */
     min-height: 100%;
     padding-bottom: 20px;
     width: 100%;
@@ -24,14 +24,14 @@ body {
 #main-content {
     width: 960px;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 70px; /* sticky */
 }
 
 header {
     border-bottom: 2px solid #aaa;
     background-color: #fff;
     margin-bottom: 20px;
-    width: 100%;
+    min-width: 960px;
 }
 
 #header-content {
@@ -70,14 +70,14 @@ nav {
 
 footer {
     padding: 20px 0;
-    height: 70px;
+    height: 70px; /* sticky */
     border-top: solid 4px #4aaaa5;
     background-color: #666;
     font-size: small;
     color: #bbb;
     text-align: center;
-    margin-top: -70px;
-    width: 100%;
+    margin-top: -70px; /* sticky */
+    min-width: 960px;
 }
 
 p {
