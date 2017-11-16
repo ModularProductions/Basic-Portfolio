@@ -12,46 +12,48 @@
   <![endif]-->
 </head>
 <body>
-  <header>
-    <div id="header-content">
-      <h1>Matt Haddock</h1>
-      <nav>
+  <div id="wrap">
+    <header>
+      <div id="header-content">
+        <h1>Matt Haddock</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div> <!-- header-content -->
+    </header>
+    <div id="main-content">          
+      <section id="sidebar">
+        <h2>Connect with Me</h2>
         <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="http://www.github.com/ModularProductions"><img src="assets/images/github.png" width="50" height="50" alt="GitHub" /></a></li>
+          <li><a href="http://www.twitter.com/TheNosferadude"><img src="assets/images/twitter.png" width="50" height="50" alt="Twitter" /></a></li>
+          <li><a href="http://www.stackoverflow.com/users/8679340/nosferadude"><img src="assets/images/stackoverflow.png" width="50" height="50" alt="Stack Overflow" /></a></li>
         </ul>
-      </nav>
-    </div> <!-- header-content -->
-  </header>
-  <div id="container">          
-    <div id="sidebar">
-      <h2>Connect with Me</h2>
-      <ul>
-        <li><a href="http://www.github.com/ModularProductions"><img src="assets/images/github.png" width="50" height="50" alt="GitHub" /></a></li>
-        <li><a href="http://www.twitter.com/TheNosferadude"><img src="assets/images/twitter.png" width="50" height="50" alt="Twitter" /></a></li>
-        <li><a href="http://www.stackoverflow.com/users/8679340/nosferadude"><img src="assets/images/stackoverflow.png" width="50" height="50" alt="Stack Overflow" /></a></li>
-      </ul>
-    </div> <!-- sidebar -->
-    <section id="content">
-      <h2>Contact</h2>
-      <form method="post" name="myemailform" action="contact.php">
-          <p>
-            <label for='name'>Name</label><br>
-            <input type="text" name="name" placeholder="Alan Smithee">
-          </p>
-          <p>
-            <label for='email'>Email</label><br>
-            <input type="email" name="email" placeholder="someone@domain.com">
-          </p>
-          <p>
-            <label for='message'>Message</label> <br>
-            <textarea name="message" placeholder="Get a life!"></textarea>
-          </p>
-          <input type="submit" name='submit' value="submit">
-        </form>
-    </section> <!-- content -->
-  </div> <!-- container -->
+      </section> <!-- sidebar -->
+      <section id="fullbar">
+        <h2>Contact</h2>
+        <form method="post" name="myemailform" action="contact.php">
+            <p>
+              <label for='name'>Name</label><br>
+              <input type="text" name="name" placeholder="Alan Smithee">
+            </p>
+            <p>
+              <label for='email'>Email</label><br>
+              <input type="email" name="email" placeholder="someone@domain.com">
+            </p>
+            <p>
+              <label for='message'>Message</label> <br>
+              <textarea name="message" placeholder="Get a life!"></textarea>
+            </p>
+            <input type="submit" name='submit' value="submit">
+          </form>
+      </section> <!-- fullbar -->
+    </div> <!-- main-content -->
+  </div> <!-- wrap -->
   <footer>
     <p>© Copyright 2017 Matt Haddock</p>
   </footer>
